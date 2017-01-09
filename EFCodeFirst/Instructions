@@ -1,0 +1,7 @@
+﻿1. Add entity-framework to your project
+2. Define how your data model should look like
+3. Create the DataContext
+4. Enable-Migrations in the PackageManager console
+5. Add-Migration MigrationName (MigrationName is a name that you give to describe what you have done)
+6. Update-Database in the PackageManager console
+7. Use DataAnnotations in order to specify how EF should behave if you do not want the default behaviour
